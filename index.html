@@ -160,10 +160,22 @@
   <!-- BODY -->
   <body>
     <script>
-      alert('Hello World!');
-      const userAnswer=prompt('Do you workout?'); 
-      console.log(userAnswer);
-      document.write('Here is some info on the benefits of working out');
+
+      alert('Hey Welcome to My Page!');
+
+      const userAnswer=confirm('Are you ready to workout?');
+
+      if (userAnswer==true) {
+      let userWorkout=prompt("Nice! How do you want to workout?");
+      alert('Your gym has been logged to the console!')
+      console.log(userGym);
+      } else {
+        alert('Maybe this website will convince you!')
+      }
+
+
+      // console.log(userAnswer);
+      document.write('Here is info on the benefits of working out');
     </script>
     <header>
       <div class="header">
