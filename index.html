@@ -4,19 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Go to the gym!</title>
-    <style></style>
+
+    <style>
+      h1 {
+        display: flex;
+        justify-content: center;
+      }
+      main {
+        position: relative;
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+      .aside {
+        position: absolute;
+      }
+    </style>
   </head>
   <!-- BODY -->
   <body>
     <header>
       <h1>The Importance of going to the Gym!</h1>
       <nav>
-        <a href="https://f-taveras.github.io/hello-world/"
-          >My Partner's Page!</a
-        >
-        <a href="#">My favorite Gym!</a>
-        <a href="#">Extra Link</a>
-        <a href="#">Extra Link</a>
+        <div class="nav">
+          <a href="https://f-taveras.github.io/hello-world/"
+            >My Partner's Page!</a
+          >
+          <a href="#">My favorite Gym!</a>
+          <a href="#">Extra Link</a>
+          <a href="#">Extra Link</a>
+        </div>
       </nav>
     </header>
     <main>
@@ -51,7 +71,7 @@
           Doloribus eligendi quia odit sit dicta!
           <!-- https://brendanhuddleston18.github.io/hello-world/# -->
         </p>
-      </aside>
+      </aside class="aside">
       <div>
         <ul>
           <li><img />Instagram</li>
