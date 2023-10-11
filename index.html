@@ -32,14 +32,21 @@
       p {
         width: 400px;
       }
-/* 
-      .container {
-        display: flex;
+
+      /* .container { */
+        /* display: flex; */
   
         /* position: relative; */
         /* display: inline; */
         /* margin-right: 0;*/
-      } */
+      }
+
+      .container {
+        display: flex;
+        /* width: 600px; */
+        align-items: center;
+        justify-content: space-between;
+      }
 
       .header {
         background-color: #ced4da;
@@ -67,6 +74,7 @@
       }
 
        .aside {
+        /* float: right; */
         display: inline-block;
         width: 400px;
         box-shadow: 0 0 8px #868e96;
@@ -78,7 +86,7 @@
         border-radius: 12px;
         box-shadow: 0 0 10px #868e96;
         width: 650px;
-        margin-bottom: 0;
+        margin-bottom: 12px;
       
       }
 
@@ -86,6 +94,10 @@
         width: 600px;
         display: inline-block;
       }
+      
+      /* .list-item {
+        display: inline-block
+      } */
     </style>
   </head>
   <!-- BODY -->
@@ -120,32 +132,32 @@
       </div>
       <article>
         
-      <h4 class="list-header">Why should you workout?</h4>
-      <div class="container">
-        <ul class="list">
-            <li ><strong>Physical Health:</strong> Regular exercise helps improve your physical health in various ways. It can help you maintain a healthy weight, reduce the risk of chronic diseases such as heart disease, diabetes, and certain types of cancer, and strengthen your immune system.</li>
-            <li><strong>Mental Health:</strong> Exercise has a significant impact on your mental well-being. It releases endorphins, which are natural mood boosters, and can reduce symptoms of anxiety and depression. It also helps alleviate stress and improve sleep quality.</li>
-            <li><strong>Increased Energy:</strong> Contrary to the initial energy expenditure during a workout, regular exercise can boost your overall energy levels. It enhances cardiovascular health, which means your heart and lungs work more efficiently, allowing you to perform daily tasks with less fatigue.</li>
-            <li><strong>Improved Physical Strength and Endurance:</strong> Consistent exercise, including strength training and cardiovascular activities, can lead to increased physical strength and endurance. This makes it easier to engage in everyday activities and can also enhance your athletic performance.</li>
-            <li><strong>Better Long-Term Quality of Life:</strong> Regular exercise is associated with a longer, healthier life. It can improve mobility, balance, and flexibility, reducing the risk of injuries as you age. It also contributes to a better overall quality of life, allowing you to enjoy more activities and experiences.</li>
+        <div class="container">
+          <ul class="list">
+          <h4 class="list-header">Why should you workout?</h4>
+            <li class="list-item"><strong>Physical Health:</strong> Regular exercise helps improve your physical health in various ways. It can help you maintain a healthy weight, reduce the risk of chronic diseases such as heart disease, diabetes, and certain types of cancer, and strengthen your immune system.</li>
+            <li class="list-item"><strong>Mental Health:</strong> Exercise has a significant impact on your mental well-being. It releases endorphins, which are natural mood boosters, and can reduce symptoms of anxiety and depression. It also helps alleviate stress and improve sleep quality.</li>
+            <li class="list-item"><strong>Increased Energy:</strong> Contrary to the initial energy expenditure during a workout, regular exercise can boost your overall energy levels. It enhances cardiovascular health, which means your heart and lungs work more efficiently, allowing you to perform daily tasks with less fatigue.</li>
+            <li class="list-item"><strong>Improved Physical Strength and Endurance:</strong> Consistent exercise, including strength training and cardiovascular activities, can lead to increased physical strength and endurance. This makes it easier to engage in everyday activities and can also enhance your athletic performance.</li>
+            <li class="list-item"><strong>Better Long-Term Quality of Life:</strong> Regular exercise is associated with a longer, healthier life. It can improve mobility, balance, and flexibility, reducing the risk of injuries as you age. It also contributes to a better overall quality of life, allowing you to enjoy more activities and experiences.</li>
           </ul>
+          <aside class="aside">
+            
+            <img src="https://placehold.jp/150x150.png"/>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              dolore, nisi maiores deleniti obcaecati laudantium vel facilis
+              molestiae corporis molestias perspiciatis nobis, minus commodi?
+              Doloribus eligendi quia odit sit dicta!
+              <!-- https://brendanhuddleston18.github.io/hello-world/# -->
+            </p>
+            <ul class="social-list">
+              <li><button>Instagram</button></li>
+              <li><button>Facebook</button></li>
+              <li><button>Twitter</button></li>
+            </ul>
+          </aside>
         </article>
-        <aside class="aside">
-          
-          <img src="https://placehold.jp/150x150.png"/>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-            dolore, nisi maiores deleniti obcaecati laudantium vel facilis
-            molestiae corporis molestias perspiciatis nobis, minus commodi?
-            Doloribus eligendi quia odit sit dicta!
-            <!-- https://brendanhuddleston18.github.io/hello-world/# -->
-          </p>
-          <ul class="social-list">
-            <li><button>Instagram</button></li>
-            <li><button>Facebook</button></li>
-            <li><button>Twitter</button></li>
-          </ul>
-        </aside>
       </div>
 
       <!-- <div>
