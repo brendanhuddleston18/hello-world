@@ -1,3 +1,37 @@
+// ACTUAL SCRIPTS
+let userGym;
+let userName;
+
+function readyGym() {
+  let userAnswer = prompt("Are you ready to workout?");
+  // let userGym;
+  if (userAnswer.toLowerCase() == "yes") {
+    // let userName = prompt("What's your name?");
+    userName = prompt("What's your name?");
+    userGym = prompt("Sweet, what gym do you go to?");
+    console.log(userName + " goes to " + userGym);
+  } else {
+    userNo = prompt("Are you Sure? Are you ready to workout?");
+    if (userNo.toLowerCase() == "yes") {
+      userName = prompt("What's your name?");
+      userGym = prompt("Sweet! What gym do you go to!");
+      console.log(userName + "goes to " + userGym);
+    } else {
+      alert("Try hitting the Motivation Button");
+    }
+  }
+
+  // console.log(userName + userGym);
+
+  return console.log(userName, userGym);
+}
+
+function showGym() {
+  document.write(
+    userName + ", Hopefully makes you want to go to " + userGym + "Right Now"
+  );
+}
+
 /*
 // VARIABLES
 Variable is a container for info. (data)
@@ -41,21 +75,20 @@ if (this is true) {execute this code}
 else {}
 */
 
-alert("Hey Welcome to My Page!");
+// alert("Hey Welcome to My Page!");
 
-const userAnswer = confirm("Are you ready to workout?");
+// const userAnswer = confirm("Are you ready to workout?");
 
-if (userAnswer == true) {
-  let userWorkout = prompt("Nice! How do you want to workout?");
-  alert("Sweet! Your answer has been logged to the console");
-  console.log(userWorkout);
-} else {
-  let userCancel = prompt("Why Not?");
-  alert("Maybe this website will convince you!");
-}
+// if (userAnswer == true) {
+//   let userWorkout = prompt("Nice! How do you want to workout?");
+//   alert("Sweet! Your answer has been logged to the console");
+//   console.log(userWorkout);
+// } else {
+//   let userCancel = prompt("Why Not?");
+//   alert("Maybe this website will convince you!");
+// }
 
-{
-  /* // const motoBtn = document.getElementById("moto-btn");
+/* // const motoBtn = document.getElementById("moto-btn");
 // motoBtn.addEventListener("Click", function());
 
 //   alert("you can do it")
@@ -66,5 +99,4 @@ if (userAnswer == true) {
 //   alert("you can do it!");
 // });
 // console.log(userAnswer); */
-}
-document.write("Here are benefits on working out!");
+// document.write("Here are benefits on working out!");
