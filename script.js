@@ -40,3 +40,33 @@ CONDITIONAL LOGIC
 if (this is true) {execute this code}
 else {}
 */
+
+<script>
+
+alert('Hey Welcome to My Page!');
+
+const userAnswer=confirm('Are you ready to workout?');
+
+if (userAnswer==true) {
+let userWorkout=prompt("Nice! How do you want to workout?");
+alert('Sweet! Your answer has been logged to the console');
+console.log(userWorkout);
+} else {
+  let userCancel = prompt('Why Not?');
+  alert('Maybe this website will convince you!');
+}
+
+{/* // const motoBtn = document.getElementById("moto-btn");
+// motoBtn.addEventListener("Click", function());
+
+//   alert("you can do it")
+// }
+//   const myButton = document.moto-btn("moto-btn");
+
+//   myButton.addEventListener("click", function() {
+//   alert("you can do it!");
+// });
+// console.log(userAnswer); */}
+document.write('Here are benefits on working out!');
+
+</script>
