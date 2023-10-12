@@ -28,7 +28,10 @@ function readyGym() {
 
 function showGym() {
   document.write(
-    userName + ", Hopefully makes you want to go to " + userGym + "Right Now"
+    userName +
+      ", Hopefully this website makes you want to go to " +
+      userGym +
+      " Right Now"
   );
 }
 
