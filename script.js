@@ -8,13 +8,13 @@ function readyGym() {
   if (userAnswer.toLowerCase() == "yes") {
     // let userName = prompt("What's your name?");
     userName = prompt("What's your name?");
-    userGym = prompt("Sweet, what gym do you go to?");
+    userGym = prompt("Sweet, what gym do you go to? " + userName);
     console.log(userName + " goes to " + userGym);
   } else {
     userNo = prompt("Are you Sure? Are you ready to workout?");
     if (userNo.toLowerCase() == "yes") {
       userName = prompt("What's your name?");
-      userGym = prompt("Sweet! What gym do you go to!");
+      userGym = prompt("Sweet! What gym do you go to! " + userName);
       console.log(userName + "goes to " + userGym);
     } else {
       alert("Try hitting the Motivation Button");
@@ -27,7 +27,7 @@ function readyGym() {
 }
 
 function showGym() {
-  document.write(
+  alert(
     userName +
       ", Hopefully this website makes you want to go to " +
       userGym +
