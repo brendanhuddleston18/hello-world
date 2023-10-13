@@ -64,7 +64,7 @@ function liftDays() {
 
   let brendanDays = prompt("How many days do you think I workout?");
   while (brendanDays != 6) {
-    prompt("Nope! Try Again");
+    brendanDays = prompt("Nope! Try Again");
   }
 }
 /*
