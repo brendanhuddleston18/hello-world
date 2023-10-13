@@ -2,13 +2,15 @@
 let userGym;
 let userName;
 
-function favDay() {
-  let brendanFavDay = prompt("What's my favorite day in the gym?");
+// function favDay() {
+//   let brendanFavDay = prompt(
+//     "What's my favorite day in the gym? Legs, Arms, Chest, Back, Shoulders?"
+//   );
 
-  while (brendanFavDay.toLowerCase !== "leg day") {
-    prompt("What's my favorite day in the gym?");
-  }
-}
+//   while (brendanFavDay.toLowerCase !== "legs") {
+//     prompt(brendanFavDay);
+//   }
+// }
 
 function readyGym() {
   let userAnswer = prompt("Are you ready to workout?");
@@ -58,6 +60,11 @@ function liftDays() {
     alert("That's a great start but shoot for more frequency!");
   } else {
     alert("Heck Yeah! Keep it Up!");
+  }
+
+  let brendanDays = prompt("How many days do you think I workout?");
+  while (brendanDays != 6) {
+    prompt("Nope! Try Again");
   }
 }
 /*
