@@ -67,6 +67,9 @@ function liftDays() {
     brendanDays = prompt("Nope! Try Again");
   }
 }
+
+// let motoBtn = document.getElementsByClassName(motoBtn);
+
 /*
 // VARIABLES
 Variable is a container for info. (data)
